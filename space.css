@@ -1,0 +1,51 @@
+
+body{
+    margin:0px;
+    color:#82a5ca;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#Hero{
+    background-image: url("picture/livebg.gif");  /*from giffy.com*/
+    background-size: cover;
+    padding: 10px 0 40px 0;
+}
+
+.btn{
+    padding: 10px 14px;
+    margin-top: 20px;
+    color: #82a5ca;
+    font-weight:600px;
+    background-color: white;
+    border: none;
+    font-family: 'Orbitron', sans-serif;  /* or font-family:inherit;*/
+}
+
+@font-face {
+    font-family: font;                /*1001fonts.com*/
+    src: url("font.ttf");  
+
+}
+
+h2{
+    font-family: font;
+    font-size: 40px;
+}
+
+.name{
+    text-align: end;
+}
+
+.underline{
+    
+    border-bottom: 3px solid red ;
+}
+
+#logo {
+    width: 200px;
+}
+
+#title{
+    text-shadow: 0px 0px 4px black;
+}
